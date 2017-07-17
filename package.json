@@ -1,0 +1,23 @@
+{
+  "name": "express-ts-swagger-mongo-template",
+  "version": "1.0.0",
+  "description": "Template for NodeJS Express Typescript project to support Swagger API & Mongo CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon --watch server/**/*.ts --exec .\\node_modules\\.bin\\ts-node server/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.36",
+    "@types/node": "^8.0.13",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.2.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
