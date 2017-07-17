@@ -1,6 +1,8 @@
 import * as express from 'express';
+import { Route } from './controllers/index';
 const app = express();
 
+app.get('/test', Route.Index.get);
 app.get('/', (req, res) => {
     res.send('Hello World! @' + new Date());
 });
